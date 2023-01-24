@@ -57,7 +57,7 @@ typedef enum {
    SEVERITY_CRITICAL=2, /* Action must be taken immediately. Indicates failure in a primary system. | */
    SEVERITY_ERROR=3, /* Indicates an error in secondary/redundant systems. | */
    SEVERITY_WARNING=4, /* Indicates about a possible future error if this is not resolved within a given timeframe. Example would be a low battery warning. | */
-   SEVERITY_NOTICE=5, /* An unusual event has occured, though not an error condition. This should be investigated for the root cause. | */
+   SEVERITY_NOTICE=5, /* An unusual event has occurred, though not an error condition. This should be investigated for the root cause. | */
    SEVERITY_INFO=6, /* Normal operational messages. Useful for logging. No action is required for these messages. | */
    SEVERITY_DEBUG=7, /* Useful non-operational messages that can assist in debugging. These should not occur during normal operation. | */
 }severity_e;
@@ -148,7 +148,7 @@ typedef struct{
 
 /**
  * @struct object_t
- * @brief message to represent information about an static/dynamic object
+ * @brief message to represent information about a static/dynamic object
  *
  */
 typedef struct{
@@ -328,7 +328,7 @@ typedef struct{
     double latitude;                          /**< latitude (degrees) */
     double longitude;                         /**< longitude (degrees) */
     double altitude;                          /**< altitude (m)  */
-    double x;                                 // Remaining fields for compability with mavlink
+    double x;                                 // Remaining fields for compatability with mavlink
     double y;
     double z;
     double approach_x;
@@ -348,7 +348,7 @@ DEF_MSG(cfsBands_t,sizeof(bands_t))
 
 /**
  * @struct cfsGeofenceConflict_t
- * @brief message contaning information about geofence conflicts. user data type: geofenceConflict_t
+ * @brief message containing information about geofence conflicts. user data type: geofenceConflict_t
  *
  * Published under the ICAROUS_GEOFENCE_MONITOR_MID topic
  */
@@ -356,7 +356,7 @@ DEF_MSG(cfsGeofenceConflict_t,sizeof(geofenceConflict_t))
 
 /**
  * @struct cfsTrajectoryMonitorData_t
- * @brief message contaning information about trajectory conflicts
+ * @brief message containing information about trajectory conflicts
  *
  * Published under the ICAROUS_FLIGHTPLAN_MONITOR_MID topic
  */

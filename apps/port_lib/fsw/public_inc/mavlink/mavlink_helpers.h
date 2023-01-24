@@ -529,12 +529,12 @@ MAVLINK_HELPER uint8_t mavlink_expected_message_length(const mavlink_message_t *
 }
 
 /**
- * This is a varient of mavlink_frame_char() but with caller supplied
+ * This is a variant of mavlink_frame_char() but with caller supplied
  * parsing buffers. It is useful when you want to create a MAVLink
  * parser in a library that doesn't use any global variables
  *
  * @param rxmsg    parsing message buffer
- * @param status   parsing starus buffer 
+ * @param status   parsing status buffer 
  * @param c        The char to parse
  *
  * @param returnMsg NULL if no message could be decoded, the message data else
@@ -796,7 +796,7 @@ MAVLINK_HELPER uint8_t mavlink_frame_char_buffer(mavlink_message_t* rxmsg,
 	}
 
 	bufferIndex++;
-	// If a message has been sucessfully decoded, check index
+	// If a message has been successfully decoded, check index
 	if (status->msg_received == MAVLINK_FRAMING_OK)
 	{
 		//while(status->current_seq != rxmsg->seq)

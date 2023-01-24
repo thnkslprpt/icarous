@@ -1,6 +1,6 @@
 /**
  * @file geofence_msg.h
- * @brief Defintion of messages used by geofence_msg.h
+ * @brief Definition of messages used by geofence_msg.h
  */
 
 #ifndef ICAROUS_CFS_GEOFENCE_MSG_H

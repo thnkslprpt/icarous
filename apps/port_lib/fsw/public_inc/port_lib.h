@@ -82,7 +82,7 @@ int readPort(port_t *prt);
 /**
  * Write raw data to port
  * @param prt  pointer to port to read data from
- * @param sendbuffer pointer to char array contiaining data
+ * @param sendbuffer pointer to char array containing data
  * @param datalength length of data to be used
  */
 void writeData(port_t* prt,char* sendbuffer,int datalength);

@@ -57,7 +57,7 @@ int InitializeSerialPort(port_t* prt,bool should_block){
     prt->id = open (prt->target, O_RDWR | O_NOCTTY | O_SYNC);
     if (prt->id < 0)
     {
-        OS_printf("Error operning port\n");
+        OS_printf("Error opening port\n");
         return -1;
     }
 

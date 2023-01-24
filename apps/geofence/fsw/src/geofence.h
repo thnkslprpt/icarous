@@ -41,7 +41,7 @@
  * @defgroup GEOFENCE_MONITOR_cFS_APP
  * @ingroup CFSAPPS
  *
- * @details This application provides geofence monitoring servies. Both keep-in and keep-out constraint violations are monitored.
+ * @details This application provides geofence monitoring services. Both keep-in and keep-out constraint violations are monitored.
  * This application listens to the ICAROUS_GEOFENCE_MID topic for geofence_t messages encoding geofence information.
  * It publishes output on the ICAROUS_GEOFENCE_MONITOR_MID.  Additionally, it also checks if each mission waypoint
  * satisfies all geofence constraints. It also checks if the direct path from a given position to the next waypoint is
@@ -63,7 +63,7 @@ typedef struct{
     geofenceConflict_t gfConflictData;      ///< Geofence conflict
     flightplan_t flightplan1;               ///< Primary Flight plan to monitor
     flightplan_t flightplan2;               ///< Secondary Flight plan to monitor
-    uint16_t numFences;                     ///< Number of fnces
+    uint16_t numFences;                     ///< Number of fences
     bool receivedFP1;                       ///< Monitor flag for flight plan 1
     bool receivedFP2;                       ///< Monitor flag for flight plan 2
     bool receivedFence;                     ///< Flag indicating fence received

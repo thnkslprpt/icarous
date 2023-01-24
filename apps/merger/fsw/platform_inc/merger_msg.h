@@ -1,6 +1,6 @@
 /**
  * @file merger_msg.h
- * @brief Defintion of messages used by merger_msg.h
+ * @brief Definition of messages used by merger_msg.h
  */
 
 #ifndef ICAROUS_CFS_MERGER_MSG_H

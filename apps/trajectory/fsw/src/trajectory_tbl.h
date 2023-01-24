@@ -10,7 +10,7 @@
 
 /**
  * @struct TrajectoryTable_t
- * @brief Trajectory table defintion
+ * @brief Trajectory table definition
  */
 typedef struct
 {

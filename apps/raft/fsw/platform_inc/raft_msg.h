@@ -1,6 +1,6 @@
 /**
  * @file raft_msg.h
- * @brief Defintion of messages used by raft_msg.h
+ * @brief Definition of messages used by raft_msg.h
  */
 
 #ifndef ICAROUS_CFS_RAFT_MSG_H
@@ -79,7 +79,7 @@ typedef struct{
 
 /**
  * @struct raftVoteResponse_t
- * @brief followers respond to vote reqeuests with this message
+ * @brief followers respond to vote requests with this message
  */
 typedef struct{
   uint8_t TlmHeader[CFE_SB_TLM_HDR_SIZE]; /**< cFS header information */

@@ -51,7 +51,7 @@ void raft_follower(raftAppData_t* obj){
          obj->followerTime = (uint32_t)obj->timeNow*1E9;
     }
 
-    // Check if timeout has occured.
+    // Check if timeout has occurred.
     if (obj->hbeatTimeoutCounter % 20 == 0){
 
         // If there were more than one node in the network

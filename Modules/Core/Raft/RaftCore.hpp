@@ -85,7 +85,7 @@ typedef struct{
 
 /**
  * @struct raftVoteResponse_t
- * @brief followers respond to vote reqeuests with this message
+ * @brief followers respond to vote requests with this message
  */
 typedef struct{
   int32_t intersectionID;                 /**< Intersection for which election is taking place */

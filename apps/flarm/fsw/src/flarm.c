@@ -92,7 +92,7 @@ void FLARM_AppInit(void){
 	CFE_SB_Subscribe(ICAROUS_POSITION_MID,flarmAppData.INTERFACE_Pipe);
 
 	// Initialize all messages that this App generates.
-	// To perfrom sense and avoid, as a minimum, the following messages must be generated
+	// To perform sense and avoid, as a minimum, the following messages must be generated
 	CFE_SB_InitMsg(&flarmAppData.traffic,ICAROUS_TRAFFIC_MID,sizeof(object_t),TRUE);
 
 	flarmAppData.gpsOrigin[0] = 0;
@@ -424,7 +424,7 @@ void getFileTimeandDate(char** Filename)
 
 	strftime(filename,80,"%Y_%m_%d__%I_%M_%S%p", &tm);
 
-	// Copy filemname to output pointer Filename
+	// Copy filename to output pointer Filename
 	*Filename = (char *)malloc(strlen(filename)+1);
 	strcpy(*Filename,filename);
 }

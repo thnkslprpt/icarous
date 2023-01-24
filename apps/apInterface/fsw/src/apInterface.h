@@ -83,7 +83,7 @@ void APINTERFACE_AppCleanUp(void);
 
 /**
  * Initialize ports to the autopilot
- * @brief Open ports to autopilot and intialize ports here
+ * @brief Open ports to autopilot and initialize ports here
  */
 void APINTERFACE_InitializeAPPorts();
 

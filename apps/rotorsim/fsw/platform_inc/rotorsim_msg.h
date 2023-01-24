@@ -1,6 +1,6 @@
 /**
  * @file rotorsim_msg.h
- * @brief Defintion of messages used by rotorsim_msg.h
+ * @brief Definition of messages used by rotorsim_msg.h
  */
 
 

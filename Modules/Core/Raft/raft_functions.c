@@ -58,7 +58,7 @@ void raft_follower(void){
 
   RAFT_SetFollowerPipeConfiguration();
 
-  // Check if timeout has occured.
+  // Check if timeout has occurred.
   if (raftAppData.hbeatTimeoutCounter % 20 == 0){
 
       // If there were more than one node in the network

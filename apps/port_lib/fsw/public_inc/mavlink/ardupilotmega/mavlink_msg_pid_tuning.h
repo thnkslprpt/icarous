@@ -60,7 +60,7 @@ typedef struct __mavlink_pid_tuning_t {
  * @param msg The MAVLink message to compress the data into
  *
  * @param axis axis
- * @param desired desired rate (degrees/s)
+ * @param desired rdesired ate (degrees/s)
  * @param achieved achieved rate (degrees/s)
  * @param FF FF component
  * @param P P component
@@ -230,7 +230,7 @@ static inline void mavlink_msg_pid_tuning_send_struct(mavlink_channel_t chan, co
 
 #if MAVLINK_MSG_ID_PID_TUNING_LEN <= MAVLINK_MAX_PAYLOAD_LEN
 /*
-  This varient of _send() can be used to save stack space by re-using
+  This variant of _send() can be used to save stack space by re-using
   memory from the receive buffer.  The caller provides a
   mavlink_message_t which is the size of a full mavlink message. This
   is usually the receive buffer for the channel, and allows a reply to an

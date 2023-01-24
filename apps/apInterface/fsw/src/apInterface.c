@@ -105,7 +105,7 @@ void APINTERFACE_AppInit(void){
     //CFE_SB_Subscribe(ICAROUS_BANDS_VS_MID,appdataApIntf.INTERFACE_Pipe);
 
 	// Initialize all messages that this App generates.
-	// To perfrom sense and avoid, as a minimum, the following messages must be generated
+	// To perform sense and avoid, as a minimum, the following messages must be generated
 	CFE_SB_InitMsg(&appdataApIntf.wpReached,ICAROUS_WPREACHED_MID,sizeof(missionItemReached_t),TRUE);
 	CFE_SB_InitMsg(&appdataApIntf.position,ICAROUS_POSITION_MID,sizeof(position_t),TRUE);
 	CFE_SB_InitMsg(&appdataApIntf.attitude,ICAROUS_ATTITUDE_MID,sizeof(attitude_t),TRUE);

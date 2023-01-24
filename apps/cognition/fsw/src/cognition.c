@@ -103,7 +103,7 @@ void COGNITION_AppInit(void){
     CFE_SB_SubscribeLocal(SAFE2DITCH_STATUS_MID,appdataCog.CognitionPipe,CFE_SB_DEFAULT_MSG_LIMIT);
     #endif
 	// Initialize all messages that this App generates.
-	// To perfrom sense and avoid, as a minimum, the following messages must be generated
+	// To perform sense and avoid, as a minimum, the following messages must be generated
 
 	// Send event indicating app initialization
     if(status == CFE_SUCCESS){

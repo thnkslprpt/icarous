@@ -40,7 +40,7 @@ namespace mavlink {
  * This struct is the data format to be used when sending
  * parameters. The parameter should be copied to the native
  * type (without type conversion)
- * and re-instanted on the receiving side using the
+ * and re-instantiated on the receiving side using the
  * native type as well.
  */
 MAVPACKED(

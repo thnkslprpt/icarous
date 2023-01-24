@@ -72,7 +72,7 @@ typedef struct{
     attitude_t attitude;                   ///< attitude message
 
     flightplan_t flightplan1;              ///< Mission flight plan
-    flightplan_t flightplan2;              ///< Contigency flight plan
+    flightplan_t flightplan2;              ///< Contingency flight plan
     flightplan_t *fp;
 
     bands_t trkBands;

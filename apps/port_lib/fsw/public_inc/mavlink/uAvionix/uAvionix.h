@@ -113,7 +113,7 @@ typedef enum UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE
 } UAVIONIX_ADSB_OUT_CFG_AIRCRAFT_SIZE;
 #endif
 
-/** @brief GPS lataral offset encoding */
+/** @brief GPS lateral offset encoding */
 #ifndef HAVE_ENUM_UAVIONIX_ADSB_OUT_CFG_GPS_OFFSET_LAT
 #define HAVE_ENUM_UAVIONIX_ADSB_OUT_CFG_GPS_OFFSET_LAT
 typedef enum UAVIONIX_ADSB_OUT_CFG_GPS_OFFSET_LAT
